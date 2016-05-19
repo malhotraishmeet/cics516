@@ -1,0 +1,83 @@
+<!--
+Ishmeet Singh Malhotra
+
+-->
+
+<!-- form to search for every movie by a given actor -->
+<form action="search-all.php" method="get">
+    <fieldset>
+        <legend>All movies</legend>
+        <div>
+            <input name="firstname" type="text" size="12" placeholder="first name" autofocus="autofocus" /> 
+            <input name="lastname" type="text" size="12" placeholder="last name" /> 
+            <input type="submit" name="all_Movies" value="go" />
+        </div>
+    </fieldset>
+</form>
+
+<!-- form to search for movies where a given actor was with Kevin Bacon -->
+<form action="search-kevin.php" method="get">
+    <fieldset>
+        <legend>Movies with Kevin Bacon</legend>
+        <div>
+            <input name="firstname" type="text" size="12" placeholder="first name" /> 
+            <input name="lastname" type="text" size="12" placeholder="last name" /> 
+            <input type="submit" name="moviesWithBacon" value="go" />
+        </div>
+    </fieldset>
+</form>
+
+<form action="add-film.php" method="get">
+    <fieldset>
+        <legend>Add a new film</legend>
+        <div>
+            <label>Name:</label>  <input name="movieName" type="text" size="12" placeholder="movie name" /> 
+        </div>
+        <div>
+            <label>Year:</label> <input name="movieYear" type="text" size="12" placeholder="year" /> 
+        </div> 
+        <div>
+            <label>Actor:</label>
+            <input name="actorsFirstName" type="text" size="12" placeholder="First Name" /> 
+            <input name="actorsLastName" type="text" size="12" placeholder="Last Name" /> 
+        </div>
+        <div>
+            <label>Director:</label> <input name="directorsFirstName" type="text" size="12" placeholder="First Name" /> 
+            <input name="directorsLastName" type="text" size="12" placeholder="Last Name" /> 
+        </div>
+        <div>
+            <select name="movieGenre"> 
+                <option value="Action" selected="selected">Action</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Animation">Animation</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Crime">Crime</option>
+                <option value="Documentary">Documentary</option>
+                <option value="Drama">Drama</option>
+                <option value="Family">Family</option>
+                <option value="Fantasy">Fantasy</option>
+                <option value="Horror">Horror</option>
+                <option value="Musical">Musical</option>
+                <option value="Mystery">Mystery</option>
+                <option value="Romance">Romance</option>
+                <option value="Sci-Fi">Sci-Fi</option>
+                <option value="Short">Short</option>
+                <option value="Thriller">Thriller</option>
+                <option value="War">War</option>
+                <option value="Western">Western</option>
+            </select>
+            <div>
+                <input type="submit" name="newMovie" value="go" />
+            </div>
+        </div>
+    </fieldset>
+</form>
+</div> <!-- end of #main div -->
+
+<div id="w3c">
+    <a href="https://webster.cs.washington.edu/validate-html.php"><img src="https://webster.cs.washington.edu/w3c-html.png" alt="Valid HTML5" /></a>
+    <a href="https://webster.cs.washington.edu/validate-css.php"><img src="https://webster.cs.washington.edu/w3c-css.png" alt="Valid CSS" /></a>
+</div>
+</div> <!-- end of #frame div -->
+</body>
+</html>

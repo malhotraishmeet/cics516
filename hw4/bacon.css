@@ -1,0 +1,59 @@
+body {
+	text-align: center;
+	background-color: #dad9d4;
+	font-family: 'Verdana', 'Tahoma', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	color: #2E2E2E;	
+
+}
+
+#w3c, #banner {
+	text-align: left;
+	background-color: #000000;
+	background-image: url("images/banner-background.png");
+	background-repeat: repeat-x;
+	color: white;
+	font-weight: bold;
+	
+}
+
+#frame {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 2px 0px 2px #2E2E2E, -2px 0px 2px #2E2E2E;
+}
+
+#main {
+	background-color: #ffffff;
+	text-align: center;
+}
+
+#main, #banner, #w3c{
+	margin: 0px;
+	padding: 1em;
+}
+
+input[type=text]  {
+	border: inset 2px #dad9d4;
+	width: 10em;
+}
+
+input[type=submit] {
+	border: outset 2px #dad9d4;
+}
+
+form, table {
+	width: 24em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+tr:nth-child(odd) {
+   background-color: #dad9d4;
+}
